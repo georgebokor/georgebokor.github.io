@@ -2,12 +2,47 @@ html {
     height: 100%;
 }
 body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    color: #FFF;
+}
+body {
     background: #000000;
-    background: -moz-radial-gradient(center, ellipse cover, #616161 0%, #000000 100%); /* ff3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #616161), color-stop(100%, #000000)); /* safari4+,chrome */
-    background: -webkit-radial-gradient(center, ellipse cover, #616161 0%, #000000 100%); /* safari5.1+,chrome10+ */
-    background: -o-radial-gradient(center, ellipse cover, #616161 0%, #000000 100%); /* opera 11.10+ */
-    background: -ms-radial-gradient(center, ellipse cover, #616161 0%, #000000 100%); /* ie10+ */
-    background: radial-gradient(ellipse at center, #616161 0%, #000000 100%); /* w3c */
+    background: -moz-radial-gradient(center, ellipse cover, #616161 10%, #000000 60%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 60%, color-stop(10%, #616161), color-stop(60%, #000000)); /* safari4+,chrome */
+    background: -webkit-radial-gradient(center, ellipse cover, #616161 10%, #000000 60%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, #616161 10%, #000000 60%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, #616161 10%, #000000 60%); /* ie10+ */
+    background: radial-gradient(ellipse at center, #616161 10%, #000000 60%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+}
+.logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+h1 {
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+}
+.container {
+    width: 300px;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -155px;
+    left: 50%;
+    margin-left: -150px;
 }
